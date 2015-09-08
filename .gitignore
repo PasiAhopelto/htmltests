@@ -1,4 +1,6 @@
 .sass-cache
+.project
+.settings/
 css/geolocation.css.map
 css/hovers.css.map
 css/svg.css.map
