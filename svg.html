@@ -10,14 +10,15 @@
 <body>
 	<h1>Scalable Vector Graphics</h1>
 	<svg width="600" height="600">
-	   <path d="M300 10 L300 500 L100 100 L200 20 Z" fill="none" stroke="black" stroke-width="4" />	
-	   <text x="300" y="10" dx="5" dy="25" style="font-family:Arial;font-size:200%">A</text>
+	   <path d="M300 10 L300 500 L100 100 L200 20 Z" fill="none" stroke="black" stroke-width="4"/>	
+	   <text x="300" y="10" dx="20" dy="0" style="font-family:Arial;font-size:200%" transform="rotate(90 320 10)">
+	      Draggable circle and clickable bezier
+	   </text> 
 	   <a xlink:href="https://en.wikipedia.org/wiki/Bézier_curve">
 	       <path d="M305 495 Q303 515 295 500" stroke="red" stroke-width="2" fill="none" />
 	   </a>
-	   <a xlink:href="https://en.wikipedia.org/wiki/Flag_of_Japan">
-	       <circle cx="200" cy="200" r="40" stroke="red" stroke-width="4" fill="red" />
-	   </a>
+	   <circle cx="200" cy="200" r="40" stroke="red" stroke-width="4" fill="red" transform="translate(0 0)" onmousedown="mouseDown(event)" />
    </svg>
+   <script src="js/svg.js"></script>
 </body>
 </html>
