@@ -3,6 +3,5 @@ $(document).ready(function() {
 });
 
 function valueChangeListener(event) {
-	console.log("A")
-	$('#info').html('Value changed from ' + event.oldValue + ' to ' + event.newValue);
+	$('#info').html(event.oldValue + ' -> ' + event.newValue);
 }
