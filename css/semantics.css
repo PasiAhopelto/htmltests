@@ -24,4 +24,22 @@ article {
   margin-bottom: 1.5em;
   background: #A7D8E8; }
 
+section p:first-letter {
+  float: left;
+  font-size: 400%;
+  height: 0.8em;
+  margin-top: -0.3em;
+  margin-bottom: -0.15em;
+  padding: 0.2em 0.1em 0 0;
+  color: #A7D8E8; }
+
+article p:first-letter {
+  float: left;
+  font-size: 200%;
+  height: 0.8em;
+  margin-top: -0.26em;
+  margin-bottom: -0.15em;
+  padding: 0.2em 0.1em 0 0;
+  color: black; }
+
 /*# sourceMappingURL=semantics.css.map */
