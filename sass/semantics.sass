@@ -9,6 +9,10 @@ footer
 	position: relative
 	clear: both
 
+mark
+	font-style: oblique
+	background-color: white
+
 aside
 	float: right
 	width: 12em
@@ -16,29 +20,44 @@ aside
 	margin-left: 2em
 	font-style: oblique
 
+aside .box
+	background-color: ghostwhite
+	position: absolute
+	height: 2em
+	width: 2em
+	margin-top: -0.2em
+	margin-left: -0.4em
+	z-index: -1
+
 article
 	float: left
 	width: 94%
-	margin-left: 2%
-	margin-right: 4%
+	border-left: 2em solid ghostwhite
+	border-right: 1em solid ghostwhite
+	background-color: ghostwhite
+	margin-top: -0.5em
+	margin-left: 0em
 	margin-bottom: 1.5em
-	background: #A7D8E8
-	
-section p:first-letter
+
+article p
+	margin-top: 0
+	margin-bottom: 0
+
+.dropcap
 	float: left
-	font-size: 400%
-	height: .8em
+	font-size: 42px
+	height: 40px
 	margin-top: -.3em
 	margin-bottom: -.15em
 	padding: .2em .1em 0 0
-	color: #A7D8E8
+	color: #87B8C8
 
-article p:first-letter
+article p:first-child:first-letter
 	float: left
-	font-size: 200%
-	height: .8em
-	margin-top: -.26em
-	margin-bottom: -.15em
+	font-size: 34px
+	height: 30px
+	margin-top: -.30em
+	margin-bottom: -.35em
 	padding: .2em .1em 0 0
-	color: black
+	color: #87B8C8
 	
