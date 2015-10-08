@@ -1,17 +1,31 @@
 html, body {
   height: 100%;
-  margin: 0;
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
   padding: 0; }
+
+h1 {
+  font-size: 200%; }
+
+h1, h2, h3 {
+  font-variant: small-caps;
+  font-family: sans-serif;
+  margin-bottom: -0.5em; }
 
 footer {
   border-top: 1px solid #ccc;
   margin-top: 1em;
+  margin-bottom: 1.5em;
   position: relative;
   clear: both; }
 
 mark {
   font-style: oblique;
   background-color: white; }
+
+article mark {
+  background-color: ghostwhite; }
 
 aside {
   float: right;
@@ -31,7 +45,7 @@ aside .box {
 
 article {
   float: left;
-  width: 94%;
+  width: 90%;
   border-left: 2em solid ghostwhite;
   border-right: 1em solid ghostwhite;
   background-color: ghostwhite;
